@@ -1,32 +1,31 @@
 {
   "users": [
     {
-      "id": 1,
-      "email": "jc.bailliez@gmail.com"
-    },
-    {
-      "email": "toto@google.fr",
-      "id": 2
+      "firstname": "Jean-Charles",
+      "lastname": "Bailliez",
+      "email": "jc.bailliez@gmail.com",
+      "password": "password",
+      "cityId": "1",
+      "districtId": "2",
+      "id": 1
     }
   ],
   "cities": [
     {
       "id": 1,
-      "name": "Clermont-Ferrand",
-      "districts": [
-        {
-          "id": 1,
-          "name": "Montferrand"
-        },
-        {
-          "id": 2,
-          "name": "La Glacière"
-        }
-      ]
+      "name": "Clermont-Ferrand"
     },
     {
       "id": 2,
       "name": "Thiers"
     }
+  ],
+  "districts": [
+    { "id": 1, "cityId": 1, "name": "Montferrand" },
+    { "id": 2, "cityId": 1, "name": "Les Gravouses" }
+  ],
+  "subscriptions": [
+    { "userId": 1, "cityId": 1, "districtId": 1 },
+    { "userId": 1, "cityId": 1, "districtId": 2 }
   ]
 }
