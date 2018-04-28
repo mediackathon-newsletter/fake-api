@@ -1,0 +1,32 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "email": "jc.bailliez@gmail.com"
+    },
+    {
+      "email": "toto@google.fr",
+      "id": 2
+    }
+  ],
+  "cities": [
+    {
+      "id": 1,
+      "name": "Clermont-Ferrand",
+      "districts": [
+        {
+          "id": 1,
+          "name": "Montferrand"
+        },
+        {
+          "id": 2,
+          "name": "La Glacière"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Thiers"
+    }
+  ]
+}
